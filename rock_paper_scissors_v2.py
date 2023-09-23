@@ -55,7 +55,7 @@ while player_move != 'e':
 print()
 
 if player_wins > computer_wins:
-    print('End of the game! You won!')
+    print('End of the game! You win!')
     print()
     # printing a heart
     for row in range(0, 6):
@@ -67,6 +67,6 @@ if player_wins > computer_wins:
         print()  # to start the next row on new line
 
 elif player_wins < computer_wins:
-    print('End of the game! Sorry, but the computer won!')
+    print('End of the game! Sorry, but the computer win!')
 else:
     print('End of the game! No one wins!')
