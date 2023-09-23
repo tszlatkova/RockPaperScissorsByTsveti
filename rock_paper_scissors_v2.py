@@ -4,7 +4,7 @@ rock = 'Rock'
 paper = 'Paper'
 scissors = 'Scissors'
 
-print("During the game, the result will be displayed as follow -> player's wins : draws : computer's wins. ")
+print("During the game, the score will be displayed as follow -> player's wins : draws : computer's wins. ")
 player_move = input('Choose [r]ock, [p]aper, [s]cissors or [e]nd: ')
 
 game = 0
