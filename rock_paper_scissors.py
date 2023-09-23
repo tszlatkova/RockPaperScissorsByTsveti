@@ -11,7 +11,7 @@ if player_move == 'r':
 elif player_move == 'p':
     player_move = paper
 elif player_move == 's':
-    player_move == scissors
+    player_move = scissors
 else:
     raise SystemExit('Invalid Input. Try again...')  # exits the whole program
 
